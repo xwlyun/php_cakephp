@@ -24,7 +24,8 @@
  * its action called 'display', and we pass a param to select the view file
  * to use (in this case, /app/View/Pages/home.ctp)...
  */
-	Router::connect('/', array('controller' => 'pages', 'action' => 'display', 'home'));
+	Router::connect('/', array('controller' => 'pages', 'action' => 'display', 'home'));	// cakephp默认打开到View/Pages/home.ctp
+//	Router::connect('/', array('controller' => 'posts', 'action' => 'index'));	// 修改默认打开页，例如本机：http://127.0.0.1/cakephp
 /**
  * ...and connect the rest of 'Pages' controller's URLs.
  */
