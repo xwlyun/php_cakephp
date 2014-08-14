@@ -7,6 +7,9 @@
  */
 class PostsController extends AppController
 {
+
+	##region 自己编写控制器
+
 	public $name = 'Posts';
 	public $helpers = array('Html', 'Form');
 
@@ -104,4 +107,6 @@ class PostsController extends AppController
 			}
 		}
 	}
+
+	##endregion
 }
