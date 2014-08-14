@@ -4,8 +4,11 @@
  * Class Post
  * 模型，对应数据库的表posts
  * 命名规则，数据库表名posts，模型Post，控制器PostsController
+ * $name='Post'指代数据库中的表posts
+ * $validate=.rule.设置表单助手的验证
  */
-class Post extends AppModel {
+class Post extends AppModel
+{
 	// 数据库中表名posts
 	public $name = 'Post';
 

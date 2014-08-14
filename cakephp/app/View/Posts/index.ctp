@@ -1,4 +1,5 @@
-<h1>posts</h1>
+<!-- 视图，posts首页，帖子列表 -->
+<h1>帖子列表</h1>
 <table>
 	<tr>
 		<th>id</th>
